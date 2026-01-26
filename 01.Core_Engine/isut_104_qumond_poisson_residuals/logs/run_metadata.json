@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-01-26 08:24:29",
+  "mode": "spectral(periodic)",
+  "args": {
+    "N": 96,
+    "L": 200.0,
+    "pad": 1,
+    "G": 1.0,
+    "a0": 0.12,
+    "nu": "nu_standard",
+    "M": 1000.0,
+    "Rd": 3.0,
+    "zd": 0.4,
+    "margin": 4
+  },
+  "notes": {
+    "periodic_mean": "FFT periodic Poisson sets k=0 to zero => equivalent to subtracting mean density.",
+    "interpretation": "Residual norms should be small relative to RHS norms if solve is consistent."
+  },
+  "newton_residual": {
+    "rms": 3.85847534441494e-15,
+    "linf": 1.7763568394002505e-13,
+    "ref_rms": 0.20918942124718978,
+    "ref_linf": 104.24584872879502,
+    "rel_rms": 1.8444887515872767e-14,
+    "rel_linf": 1.7040072684540205e-15
+  },
+  "qumond_residual": {
+    "rms": 7.262162042418111e-11,
+    "linf": 2.417056066406076e-08,
+    "ref_rms": 0.20806345460959247,
+    "ref_linf": 102.89922318092502,
+    "rel_rms": 3.490359254125015e-10,
+    "rel_linf": 2.3489546292844496e-10
+  }
+}

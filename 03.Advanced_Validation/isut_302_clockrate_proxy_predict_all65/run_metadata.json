@@ -1,0 +1,27 @@
+{
+  "script": "isut_302_clockrate_proxy_predict_all65",
+  "timestamp": "2026-01-26 08:27:21",
+  "validator_py": "c:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\03.Advanced_Validation\\isut_300_valid_a0_constancy.py",
+  "results_csv": "c:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\03.Advanced_Validation\\isut_300_valid_a0_constancy\\All65\\data\\All65_Full_Results.csv",
+  "filters": {
+    "quality": "Good",
+    "require_opt_success": false,
+    "r_min_kpc": 0.2,
+    "min_vobs_km_s": 5.0
+  },
+  "model": {
+    "nu_pred_form": "nu = (1 + (g_star/gN)^p)^(1/(2p))",
+    "p_fixed": 1.0,
+    "gstar_grid_min": 1e-12,
+    "gstar_grid_max": 1e-08,
+    "grid_n": 240,
+    "g_star_best_m_s2": 1.7485490689103272e-10,
+    "median_abs_log10_residual_best": 0.05268486449997404
+  },
+  "counts": {
+    "galaxies_used": 46,
+    "galaxies_with_points": 46,
+    "points": 1047,
+    "skipped_galaxies": 0
+  }
+}

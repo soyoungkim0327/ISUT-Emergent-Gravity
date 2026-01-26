@@ -1,0 +1,148 @@
+{
+  "timestamp": "2026-01-26 08:21:51",
+  "args": {
+    "N": 96,
+    "L": 200.0,
+    "pad": 2,
+    "a0": 0.12,
+    "nu": "nu_standard",
+    "fast": false
+  },
+  "runtime_sec": 38.576207399368286,
+  "runs": [
+    {
+      "cmd": [
+        "C:\\Users\\soyou\\anaconda3\\envs\\isut\\python.exe",
+        "c:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\01.Core_Engine\\isut_102_qumond_spherical_sanity.py",
+        "--N",
+        "96",
+        "--L",
+        "200.0",
+        "--pad",
+        "2",
+        "--a0",
+        "0.12",
+        "--nu",
+        "nu_standard",
+        "--rmax",
+        "50",
+        "--nr",
+        "160"
+      ],
+      "returncode": 0
+    },
+    {
+      "cmd": [
+        "C:\\Users\\soyou\\anaconda3\\envs\\isut\\python.exe",
+        "c:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\01.Core_Engine\\isut_104_qumond_poisson_residuals.py",
+        "--N",
+        "96",
+        "--L",
+        "200.0",
+        "--pad",
+        "1",
+        "--a0",
+        "0.12",
+        "--nu",
+        "nu_standard"
+      ],
+      "returncode": 0
+    },
+    {
+      "cmd": [
+        "C:\\Users\\soyou\\anaconda3\\envs\\isut\\python.exe",
+        "c:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\01.Core_Engine\\isut_105_qumond_convergence_suite.py",
+        "--N-list",
+        "48",
+        "96",
+        "--pad-list",
+        "1",
+        "2",
+        "--L",
+        "200.0",
+        "--a0",
+        "0.12",
+        "--nu",
+        "nu_standard",
+        "--nr",
+        "120"
+      ],
+      "returncode": 0
+    },
+    {
+      "cmd": [
+        "C:\\Users\\soyou\\anaconda3\\envs\\isut\\python.exe",
+        "c:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\01.Core_Engine\\isut_106_qumond_curl_free_check.py",
+        "--N",
+        "96",
+        "--L",
+        "200.0",
+        "--pad",
+        "1",
+        "--a0",
+        "0.12",
+        "--nu",
+        "nu_standard"
+      ],
+      "returncode": 0
+    },
+    {
+      "cmd": [
+        "C:\\Users\\soyou\\anaconda3\\envs\\isut\\python.exe",
+        "c:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\01.Core_Engine\\isut_107_qumond_phantom_density.py",
+        "--N",
+        "96",
+        "--L",
+        "200.0",
+        "--pad",
+        "1",
+        "--a0",
+        "0.12",
+        "--nu",
+        "nu_standard"
+      ],
+      "returncode": 2
+    },
+    {
+      "cmd": [
+        "C:\\Users\\soyou\\anaconda3\\envs\\isut\\python.exe",
+        "c:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\01.Core_Engine\\isut_108_qumond_solar_system_sanity.py",
+        "--nu",
+        "nu_standard"
+      ],
+      "returncode": 0
+    },
+    {
+      "cmd": [
+        "C:\\Users\\soyou\\anaconda3\\envs\\isut\\python.exe",
+        "c:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\01.Core_Engine\\isut_110_qumond_solar_system_efe_quadrupole.py",
+        "--N",
+        "128",
+        "--L",
+        "10.0",
+        "--pad",
+        "2",
+        "--nu",
+        "nu_beta",
+        "--beta",
+        "12.0",
+        "--eta",
+        "1.6",
+        "--a0",
+        "1.0"
+      ],
+      "returncode": 0
+    }
+  ],
+  "artifact_folders": {
+    "spherical": "isut_102_qumond_spherical_sanity/",
+    "poisson": "10.qumond_poisson_residuals__/",
+    "convergence": "isut_105_qumond_convergence_suite/",
+    "curl": "12.qumond_curl_free_check__/",
+    "phantom": "13.qumond_phantom_density__/",
+    "solar_system": "isut_108_qumond_solar_system_sanity/",
+    "efe_field": "isut_109_qumond_efe_field_bc_demo/",
+    "efe_quadrupole": "isut_110_qumond_solar_system_efe_quadrupole/"
+  },
+  "note": "Each script writes data/figures/logs under its own folder (relative to 01.Core_Engine)."
+}

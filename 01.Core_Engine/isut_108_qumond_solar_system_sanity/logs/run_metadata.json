@@ -1,0 +1,24 @@
+{
+  "args": {
+    "a0_m_s2": 1.2e-10,
+    "nu": "nu_standard",
+    "rmin_au": 0.1,
+    "rmax_au": 50.0,
+    "nr": 800
+  },
+  "constants": {
+    "G_SI": 6.6743e-11,
+    "M_SUN": 1.98847e+30,
+    "AU": 149597870700.0
+  },
+  "summary": {
+    "max_abs_frac_delta_g": 1.6736252687136385e-10,
+    "max_abs_delta_g_m_s2": 1.0977292886531556e-15,
+    "note": "This is an isolated Sun, spherical-limit regime check. External-field effects are not modeled here."
+  },
+  "outputs": {
+    "table_csv": "isut_108_qumond_solar_system_sanity/data/solar_system_deviation_table.csv",
+    "frac_fig": "isut_108_qumond_solar_system_sanity/figures/solar_system_fractional_deviation.png",
+    "delta_fig": "isut_108_qumond_solar_system_sanity/figures/solar_system_delta_acceleration.png"
+  }
+}

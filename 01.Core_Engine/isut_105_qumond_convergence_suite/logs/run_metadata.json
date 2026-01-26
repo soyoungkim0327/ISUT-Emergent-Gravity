@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-01-26 08:25:08",
+  "args": {
+    "N_list": [
+      64,
+      96
+    ],
+    "pad_list": [
+      1,
+      2,
+      3
+    ],
+    "L": 200.0,
+    "G": 1.0,
+    "a0": 0.12,
+    "nu": "nu_standard",
+    "M": 1000.0,
+    "Rd": 3.0,
+    "zd": 0.4,
+    "rmin": 0.5,
+    "rmax": 40.0,
+    "nr": 220
+  },
+  "baseline": {
+    "N": 96,
+    "pad": 3,
+    "key": "N96_pad3"
+  },
+  "runtimes": [
+    {
+      "N": 64,
+      "pad": 1,
+      "runtime_sec": 0.18287944793701172
+    },
+    {
+      "N": 64,
+      "pad": 2,
+      "runtime_sec": 1.8124070167541504
+    },
+    {
+      "N": 64,
+      "pad": 3,
+      "runtime_sec": 6.255410432815552
+    },
+    {
+      "N": 96,
+      "pad": 1,
+      "runtime_sec": 0.5947980880737305
+    },
+    {
+      "N": 96,
+      "pad": 2,
+      "runtime_sec": 6.04996395111084
+    },
+    {
+      "N": 96,
+      "pad": 3,
+      "runtime_sec": 18.339242458343506
+    }
+  ],
+  "outputs": {
+    "csv": "data\\data_convergence_rotation_curves.csv",
+    "fig_curves": "figures\\fig_convergence_rotation_curves.png",
+    "fig_relerr": "figures\\fig_convergence_relerr.png"
+  },
+  "notes": {
+    "boundary": "FFT is periodic; padding approximates isolated BC by pushing periodic images away.",
+    "interpretation": "Convergence is indicated by decreasing |Δv|/v as N increases and pad increases."
+  }
+}

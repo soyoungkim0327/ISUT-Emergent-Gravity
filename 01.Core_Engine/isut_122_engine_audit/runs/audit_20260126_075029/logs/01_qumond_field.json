@@ -1,0 +1,10 @@
+{
+  "grid": {
+    "N": 64,
+    "boxsize": 200.0,
+    "dx": 3.125,
+    "G": 1.0
+  },
+  "nu": "nu_standard",
+  "pad_factor": 2
+}

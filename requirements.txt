@@ -1,0 +1,11 @@
+# ISUT / ISUiT core dependencies
+numpy>=1.23
+scipy>=1.10
+pandas>=1.5
+matplotlib>=3.7
+requests>=2.31
+sympy>=1.12
+ipykernel>=6.25
+
+# Optional (plot styling; scripts fall back if missing)
+seaborn>=0.13

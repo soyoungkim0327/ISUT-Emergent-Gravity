@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Virtualenv
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training artifacts (you may comment these out if you want to version weights)
+*.pth
+*.pt
+
+# Dataset cache (comment in if you do NOT want to version datasets)
+data/
+datasets/
+
+# Auto-generated metadata / scaler helper files
+*.meta.json
+logp_scaler.json
+
+# Model artifacts
+*.pth
+*.pt
+*.ckpt
+*.pkl

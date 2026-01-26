@@ -1,0 +1,20 @@
+{
+  "script": "isut_301_reproduce_a0_constancy_all65",
+  "input_csv": "c:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\03.Advanced_Validation\\isut_300_valid_a0_constancy\\All65\\data\\All65_Full_Results.csv",
+  "a0_col": "Best_a0_SI",
+  "vflat_col": "V_flat",
+  "galaxy_col": "Galaxy",
+  "N_raw": 60,
+  "N_used": 50,
+  "a0_median_raw": 1.1990827981610321e-10,
+  "is_si_like": true,
+  "clean_window_applied": true,
+  "clean_min": 5e-11,
+  "clean_max": 2.5e-10,
+  "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3",
+  "matplotlib": "3.9.4",
+  "timestamp": "2026-01-26 08:27:14"
+}

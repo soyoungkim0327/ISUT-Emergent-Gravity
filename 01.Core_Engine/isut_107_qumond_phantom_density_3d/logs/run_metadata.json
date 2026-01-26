@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-01-26 08:25:21",
+  "args": {
+    "N": 96,
+    "L": 200.0,
+    "pad": 1,
+    "G": 1.0,
+    "a0": 0.12,
+    "nu": "nu_standard",
+    "M": 1000.0,
+    "Rd": 3.0,
+    "zd": 0.4,
+    "quantile": 0.995,
+    "max_points": 12000,
+    "html": false
+  },
+  "stats": {
+    "M_bar_grid": 999.9999999999999,
+    "M_eff_grid": -2.0077818008990826e-13,
+    "M_ph_pos": 820.3553499531414,
+    "M_ph_neg": -820.355349953141,
+    "rho_ph_min": -0.10716105621867023,
+    "rho_ph_max": 0.07766805257337667,
+    "rho_eff_min": -0.077683488826374,
+    "rho_eff_max": 8.18846000478018
+  },
+  "outputs": {
+    "csv": "data\\data_phantom_density_summary.csv",
+    "fig": "figures\\fig_phantom_density_slices.png"
+  },
+  "notes": {
+    "interpretation": "rho_ph is the Newtonian-equivalent extra density that reproduces the QUMOND potential.",
+    "periodic": "For periodic FFT Poisson, baryon source is mean-subtracted; rho_bar_eff := rho_bar-<rho_bar>."
+  }
+}

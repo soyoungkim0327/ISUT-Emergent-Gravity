@@ -1,0 +1,20 @@
+{
+  "env": {
+    "timestamp_local": "2026-01-26 08:47:05",
+    "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pandas": "2.3.3"
+  },
+  "args": {
+    "title": "Reviewer Diagnostic Report (proxy comparison)"
+  },
+  "notes": {
+    "input_csv": "C:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\05.Visualization_Suite\\isut_504_fig_isut_vis_comparison\\Comparison\\data\\Ultimate_Comparison_Source_Data.csv",
+    "input_csv_sha256": "b9901450ad80d15e43aa569b0aded0c0afe9a041765d849126458b31541a4f13",
+    "outputs": {
+      "table_csv": "C:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\05.Visualization_Suite\\isut_505_reviewer_analysis_report\\data\\reviewer_proxy_comparison_table.csv",
+      "summary_json": "C:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\05.Visualization_Suite\\isut_505_reviewer_analysis_report\\data\\reviewer_proxy_comparison_summary.json",
+      "figure_png": "C:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\05.Visualization_Suite\\isut_505_reviewer_analysis_report\\figures\\reviewer_analysis_report.png"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+Metric,Value,Unit,Source
+DM_Training_Preference,73.33333333333333,Percent (%),All65_Holdout_Results.csv (Train_Chi2)
+ISUT_Training_Preference,26.666666666666668,Percent (%),All65_Holdout_Results.csv (Train_Chi2)
+DM_Test_Mean_RedChi2,7.0765026296158755,Reduced Chi2,holdout_df_clean
+ISUT_Test_Mean_RedChi2,6.232799327960838,Reduced Chi2,holdout_df_clean
+DM_Test_Median_RedChi2,1.6486101871267203,Reduced Chi2,holdout_df_clean
+ISUT_Test_Median_RedChi2,2.2220112343949006,Reduced Chi2,holdout_df_clean
+DM_Test_TrimmedMean_RedChi2_5_95,2.727084108051583,Reduced Chi2,holdout_df_clean
+ISUT_Test_TrimmedMean_RedChi2_5_95,4.089576533341187,Reduced Chi2,holdout_df_clean

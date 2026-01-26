@@ -1,0 +1,21 @@
+{
+  "env": {
+    "timestamp_local": "2026-01-26 08:43:44",
+    "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pandas": "2.3.3"
+  },
+  "args": {
+    "a0_m_s2": 1.2e-10,
+    "rmin_au": 0.1,
+    "rmax_au": 50.0,
+    "nr": 800
+  },
+  "notes": {
+    "max_abs_frac_standard": 1.6736252687136385e-10,
+    "max_abs_frac_simple": 1.8295162576032003e-05,
+    "max_abs_delta_standard_m_s2": 1.0977295600458313e-15,
+    "max_abs_delta_simple_m_s2": 1.1999999980063936e-10,
+    "note": "Isolated Sun spherical-limit check; EFE not modeled."
+  }
+}

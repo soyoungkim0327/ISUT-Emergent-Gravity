@@ -1,0 +1,14 @@
+[License Agreement]
+
+This project is released for ACADEMIC RESEARCH AND EDUCATIONAL PURPOSES ONLY[cite: 1]. It follows a dual-licensing structure to clearly define the rights for software and research content.
+
+1. Software Code: MIT License
+2. Research Documents & Data: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+[Key Provisions]
+* Attribution: You must give appropriate credit to the author.
+* Non-Commercial: You may NOT use this material for commercial purposes without explicit written permission.
+* Software Usage: You are free to use, modify, and distribute the software code under the terms of the MIT License.
+* Patent Rights Reserved: This license grants usage of the code and documents but does NOT transfer or grant any rights to the underlying patents or technical inventions. All patent rights remain with the original author.
+
+Full License Text: https://creativecommons.org/licenses/by-nc/4.0/legalcode

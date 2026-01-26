@@ -1,0 +1,29 @@
+{
+  "script": "isut_304_dm_reverse_local_test",
+  "timestamp": "2026-01-26 08:27:39",
+  "inputs": {
+    "validator_py": "c:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\03.Advanced_Validation\\isut_300_valid_a0_constancy.py",
+    "results_csv": "c:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\03.Advanced_Validation\\isut_300_valid_a0_constancy\\All65\\data\\All65_Full_Results.csv",
+    "quality": "Good",
+    "require_opt_success": false
+  },
+  "model": {
+    "g_star_m_s2": 1.7485490689103272e-10,
+    "p_fixed": 1.0
+  },
+  "filters": {
+    "r_min_kpc": 0.5,
+    "min_vobs_km_s": 5.0,
+    "min_points": 8
+  },
+  "bump": {
+    "window": 11,
+    "top_k_overlays": 8
+  },
+  "counts": {
+    "galaxies_used": 46,
+    "galaxies_with_points": 42,
+    "points": 989,
+    "skipped_galaxies": 4
+  }
+}

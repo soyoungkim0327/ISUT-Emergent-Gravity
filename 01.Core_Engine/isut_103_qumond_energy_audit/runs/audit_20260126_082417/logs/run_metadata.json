@@ -1,0 +1,30 @@
+{
+  "script": "isut_103_qumond_energy_audit.py",
+  "timestamp_local": "2026-01-26 08:24:26",
+  "grid": {
+    "N": 96,
+    "L": 200.0,
+    "pad": 2,
+    "G": 1.0
+  },
+  "disk": {
+    "M": 1000.0,
+    "Rd": 3.0,
+    "zd": 0.5
+  },
+  "model": {
+    "a0": 0.12,
+    "nu": "nu_standard"
+  },
+  "integrator": {
+    "scheme": "leapfrog_KDK",
+    "dt": 0.03,
+    "steps": 2000,
+    "npart": 2000
+  },
+  "final": {
+    "E0": -91635.53152853249,
+    "E": -91537.42561788233,
+    "drift_rel": -0.001070609937146665
+  }
+}

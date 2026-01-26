@@ -1,0 +1,23 @@
+{
+  "env": {
+    "timestamp_local": "2026-01-26 08:44:16",
+    "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pandas": "2.3.3"
+  },
+  "args": {
+    "all65_csv": "C:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\03.Advanced_Validation\\isut_301_reproduce_a0_constancy_all65\\All65\\data\\All65_Full_Results_USED.csv",
+    "max_gal": 65,
+    "max_lag": 10,
+    "allow_download": true,
+    "sparc_dir": "C:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\data\\galaxies\\65_galaxies"
+  },
+  "notes": {
+    "files": {
+      "points": "data\\residuals_all_points.csv",
+      "acf_summary": "data\\residual_acf_summary.csv",
+      "hist": "figures\\residual_hist.png",
+      "acf_fig": "figures\\residual_acf.png"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "script": "isut_303_clockrate_proxy_holdout_sensitivity",
+  "timestamp": "2026-01-26 08:27:27",
+  "points_csv": "c:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\03.Advanced_Validation\\isut_302_clockrate_proxy_predict_all65\\All65\\data\\All65_clockrate_proxy_points.csv",
+  "search_root": "c:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\03.Advanced_Validation",
+  "candidates_found": [
+    "c:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\03.Advanced_Validation\\isut_302_clockrate_proxy_predict_all65\\All65\\data\\All65_clockrate_proxy_points.csv"
+  ],
+  "kfold": {
+    "k": 5,
+    "seed": 7,
+    "p_fixed": 1.0
+  },
+  "p_list": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "rmin_list": [
+    0.2,
+    0.5,
+    1.0
+  ],
+  "grid": {
+    "gstar_min": 1e-12,
+    "gstar_max": 1e-08,
+    "grid_n": 240
+  },
+  "counts": {
+    "galaxies": 46,
+    "points": 1047
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "env": {
+    "timestamp_local": "2026-01-26 08:44:01",
+    "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "pandas": "2.3.3"
+  },
+  "args": {
+    "galaxies": [
+      "NGC3198",
+      "NGC6503",
+      "NGC2403"
+    ],
+    "nrep": 25,
+    "seed": 0,
+    "nu": "simple",
+    "a0_si": 1.2e-10,
+    "noise_scale": 1.0,
+    "allow_download": true,
+    "sparc_dir": "C:\\repository\\_papers_soyoung\\isut\\isut_v1_git\\data\\galaxies\\65_galaxies"
+  },
+  "notes": {
+    "baryonic_synthesis": {
+      "ups_disk": 0.5,
+      "ups_bulge": 0.7
+    },
+    "priors": {
+      "V200": "U(40,300)",
+      "c": "U(4,25)"
+    },
+    "files": {
+      "summary": "data\\synthetic_discriminability_summary.csv",
+      "counts": "data\\synthetic_discriminability_counts.csv"
+    }
+  }
+}

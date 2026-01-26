@@ -1,0 +1,37 @@
+{
+  "args": {
+    "mode": "all",
+    "headless": false,
+    "N": 96,
+    "L": 200.0,
+    "pad": 2,
+    "G": 1.0,
+    "a0": 0.12,
+    "nu": "nu_standard",
+    "M": 1000.0,
+    "Rd": 3.0,
+    "zd": 0.4,
+    "r0": 10.0,
+    "dt": 0.05,
+    "steps_smoke": 300,
+    "steps_fid": 3000,
+    "T_total": 50.0,
+    "dt_list": [
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2
+    ]
+  },
+  "env": {
+    "timestamp_local": "2026-01-26 08:22:29",
+    "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.0.2"
+  },
+  "notes": {
+    "boundary": "FFT periodic; padding approximates isolated BC.",
+    "energy": "E=0.5 v^2 + Phi sampled from solved potential."
+  }
+}
