@@ -22,16 +22,33 @@ Thumbs.db
 *.pth
 *.pt
 
-# Dataset cache (comment in if you do NOT want to version datasets)
-data/
-datasets/
-
 # Auto-generated metadata / scaler helper files
 *.meta.json
 logp_scaler.json
 
 # Model artifacts
 *.pth
-*.pt
+*.ptd
 *.ckpt
 *.pkl
+*.bin
+# ==============================
+# ISUT generated outputs (ignore)
+# ==============================
+**/figures/
+**/fitdata/
+**/source_data/
+**/logs/
+**/runs/
+**/outputs/
+
+# file types (ignore)
+*.png
+*.csv
+
+
+# Dataset cache (comment in if you do NOT want to version datasets)
+data/
+datasets/
+!data/galaxies/
+!data/galaxies/**
