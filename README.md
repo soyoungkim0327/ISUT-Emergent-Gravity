@@ -13,6 +13,10 @@ Surprisingly, when we model this limit (*Zipfian redundancy*) in code, the need 
 We believe that extraordinary claims require transparent code.  
 So, this repository is released as an **Open Evidence Pack**, exposing everything—from core logic to verification scripts and output conventions.
 
+### 🎥 Simulation Demo
+[![ISUT Simulation Video](https://img.youtube.com/vi/Qj1V799ct60/0.jpg)](https://www.youtube.com/watch?v=Qj1V799ct60)
+
+
 1. **The Code**  
    A Python-based simulation/analysis engine that runs on your laptop. It includes an optional **Relational Time** mode designed for long-integration numerical stability (bounded energy drift) and a built-in **Audit Suite** that regenerates reproducible artifacts.
 
