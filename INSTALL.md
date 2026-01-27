@@ -1,7 +1,7 @@
-# ISUT / ISUiT Reproducibility: installation & running (Windows / macOS / Linux)
+# ISUT Reproducibility: installation & running (Windows / macOS / Linux)
 
 This repository is designed to be runnable on a standard laptop and to export **auditable artifacts**
-(**CSV/PNG/JSON + run_metadata**) via the numbered `isuit_###_*.py` scripts.
+(**CSV/PNG/JSON + run_metadata**) via the numbered `isut_###_*.py` scripts.
 
 ## 0) Recommended setup (Conda)
 
@@ -34,12 +34,12 @@ Notes:
 
 ### QUMOND conservative field-solve demo (two Poisson solves)
 ```bash
-python 01.Core_Engine/isuit_100_qumond_fieldsolve_demo.py --N 96 --L 200 --pad 2
+python 01.Core_Engine/isut_100_qumond_fieldsolve_demo.py --N 96 --L 200 --pad 2
 ```
 
 ### Engine stability audit (energy drift + curl-free + residual checks)
 ```bash
-python 01.Core_Engine/isuit_120_engine_audit_qumond.py --N 96 --L 200 --pad 2 --steps 2000 --dt 0.03
+python 01.Core_Engine/isut_120_engine_audit_qumond.py --N 96 --L 200 --pad 2 --steps 2000 --dt 0.03
 ```
 
 Outputs are written **relative to the script path**, into a folder with the same stem as the script:
@@ -49,16 +49,16 @@ Outputs are written **relative to the script path**, into a folder with the same
 
 ### a0 constancy validator
 ```bash
-python 03.Advanced_Validation/isuit_300_valid_a0_constancy.py --subset All65
+python 03.Advanced_Validation/isut_300_valid_a0_constancy.py --subset All65
 ```
 
 ### All65 proxy RAR extraction & plots
 ```bash
-python 03.Advanced_Validation/isuit_302_clockrate_proxy_predict_all65.py
+python 03.Advanced_Validation/isut_302_clockrate_proxy_predict_all65.py
 ```
 
 If you see a *validator not found* error, confirm that the file exists:
-`03.Advanced_Validation/isuit_300_valid_a0_constancy.py`.
+`03.Advanced_Validation/isut_300_valid_a0_constancy.py`.
 
 ## 4) Optional: GPU acceleration
 
