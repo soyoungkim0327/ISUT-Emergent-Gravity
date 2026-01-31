@@ -2,34 +2,52 @@
 
 # ISUT — Information Entropy-based Emergent Gravity
 
-> **What if the “missing mass” signal is actually missing information?**
+## What if the “missing mass” signal is actually missing information?
 
-We present ISUT, an auditable, code-backed evidence pack that explores a MOND-like reinterpretation of galactic rotation-curve phenomenology through an information/entropy lens.
+We present **ISUT**, an auditable, code-backed evidence pack that explores a **MOND-like** reinterpretation of galactic rotation-curve phenomenology through an information/entropy lens.
 
-Core idea. Reinterpret the MOND response function as a clock/update-rate field: ν(y) = α²(y), with y = gN/a0.
+### **Core idea**
+Reinterpret the MOND response function as a **clock/update-rate field**:  
+**ν(y) = α²(y)**, with **y = gN/a0**.
 
-Meaning. Instead of adding unseen mass, the apparent acceleration “boost” is framed as a time/information (clock-rate) effect.
+### **Meaning**
+Instead of adding unseen mass, the apparent acceleration **“boost”** is framed as a **time/information (clock-rate) effect**.
 
-Test points. The frame becomes physically distinctive if (i) α(y) is derived independently from an information/entropy principle, or (ii) it yields falsifiable deviations from MOND/DM in lensing, non-circular dynamics, or clusters.
+### **Test points**
+The frame becomes physically distinctive if:
 
-We believe extraordinary claims require transparent code.
-So we release the full workspace as an Open Evidence Pack:
+1) **α(y)** is derived independently from an information/entropy principle, **or**  
+2) it yields falsifiable deviations from **MOND/DM** in **lensing**, **non-circular dynamics**, or **clusters**.
 
-The Code
-A laptop-runnable Python simulation engine featuring a novel Relational Time stepping rule for long-integration numerical stability (bounded energy drift), plus a built-in Audit Suite.
+---
 
-The Data
-Validated on SPARC All65 and Golden12 subsets. The pipeline reproduces key rotation-curve relations (e.g., RAR and BTFR) using visible-matter inputs within the tested framework.
+We believe extraordinary claims require **transparent code**.  
+So we release the full workspace as an **Open Evidence Pack**:
 
-The AI Check
-A blind-recovery stress test using symbolic regression on noisy, pipeline-generated datasets. The solver repeatedly rediscovers an ISUT-equivalent functional form—suggesting the structure is present in the signal produced by the pipeline, not hand-crafted.
+## **Open Evidence Pack**
 
-The Verification
-Reviewer-ready scripts regenerate concrete artifacts (CSV/PNG + run metadata) end-to-end: internal consistency checks of the clock-rate mapping (identity-by-construction), holdout/sensitivity sweeps, and “Dark Matter Reverse” extra-acceleration diagnostics.
+### 1) **The Code**
+A laptop-runnable Python simulation engine featuring a novel **Relational Time** stepping rule for long-integration numerical stability (**bounded energy drift**), plus a built-in **Audit Suite**.
 
-Scope. This release is an auditable evidence pack (code + artifacts + blind symbolic-regression stress tests), not a claim of a fully completed fundamental theory.
+### 2) **The Data**
+Validated on SPARC **All65** and **Golden12** subsets. The pipeline reproduces key rotation-curve relations (e.g., **RAR** and **BTFR**) using **visible-matter** inputs within the tested framework.
 
-This repository is an invitation: run the engine, inspect the logic, and reproduce the figures.
+### 3) **The AI Check**
+A blind-recovery stress test using **symbolic regression** on noisy, pipeline-generated datasets. The solver repeatedly rediscovers an **ISUT-equivalent functional form**—suggesting the structure is present in the signal produced by the pipeline, not hand-crafted.
+
+### 4) **The Verification**
+Reviewer-ready scripts regenerate concrete artifacts (**CSV/PNG + run metadata**) end-to-end:
+- internal consistency checks of the **clock-rate mapping** (identity-by-construction),
+- holdout/sensitivity sweeps, and
+- “**Dark Matter Reverse**” extra-acceleration diagnostics.
+
+---
+
+### **Scope**
+This release is an **auditable evidence pack** (code + artifacts + blind symbolic-regression stress tests), **not** a claim of a fully completed fundamental theory.
+
+**This repository is an invitation:** run the engine, inspect the logic, and reproduce the figures.
+
 
 
 ### 🎥 Simulation Demo
