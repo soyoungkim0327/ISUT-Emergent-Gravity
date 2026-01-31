@@ -2,16 +2,35 @@
 
 # ISUT — Information Entropy-based Emergent Gravity
 
-> **"What if the missing mass is actually missing information?"**
+> **What if the “missing mass” signal is actually missing information?**
 
-We present **ISUT**, a project that reimagines galactic gravity not through invisible particles, but through the lens of **information entropy**.
+We present ISUT, an auditable, code-backed evidence pack that explores a MOND-like reinterpretation of galactic rotation-curve phenomenology through an information/entropy lens.
 
-It starts with a simple question: **Does spacetime have an information capacity?**
+Core idea. Reinterpret the MOND response function as a clock/update-rate field: ν(y) = α²(y), with y = gN/a0.
 
-Surprisingly, when we model this limit (*Zipfian redundancy*) in code, the need for Dark Matter is reduced at the scale of galaxy rotation curves, and the observed rotation-curve phenomenology emerges naturally.
+Meaning. Instead of adding unseen mass, the apparent acceleration “boost” is framed as a time/information (clock-rate) effect.
 
-We believe that extraordinary claims require transparent code.  
-So, this repository is released as an **Open Evidence Pack**, exposing everything—from core logic to verification scripts and output conventions.
+Test points. The frame becomes physically distinctive if (i) α(y) is derived independently from an information/entropy principle, or (ii) it yields falsifiable deviations from MOND/DM in lensing, non-circular dynamics, or clusters.
+
+We believe extraordinary claims require transparent code.
+So we release the full workspace as an Open Evidence Pack:
+
+The Code
+A laptop-runnable Python simulation engine featuring a novel Relational Time stepping rule for long-integration numerical stability (bounded energy drift), plus a built-in Audit Suite.
+
+The Data
+Validated on SPARC All65 and Golden12 subsets. The pipeline reproduces key rotation-curve relations (e.g., RAR and BTFR) using visible-matter inputs within the tested framework.
+
+The AI Check
+A blind-recovery stress test using symbolic regression on noisy, pipeline-generated datasets. The solver repeatedly rediscovers an ISUT-equivalent functional form—suggesting the structure is present in the signal produced by the pipeline, not hand-crafted.
+
+The Verification
+Reviewer-ready scripts regenerate concrete artifacts (CSV/PNG + run metadata) end-to-end: internal consistency checks of the clock-rate mapping (identity-by-construction), holdout/sensitivity sweeps, and “Dark Matter Reverse” extra-acceleration diagnostics.
+
+Scope. This release is an auditable evidence pack (code + artifacts + blind symbolic-regression stress tests), not a claim of a fully completed fundamental theory.
+
+This repository is an invitation: run the engine, inspect the logic, and reproduce the figures.
+
 
 ### 🎥 Simulation Demo
 [![ISUT Simulation Video](https://img.youtube.com/vi/Qj1V799ct60/0.jpg)](https://www.youtube.com/watch?v=Qj1V799ct60)
